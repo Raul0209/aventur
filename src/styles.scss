@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('animate.css/animate.min');
+//FONTS CUSTOM
+@font-face {
+    font-family: "parfair-bold-italic";
+    src: url("./assets/fonts/Playfair/PlayfairDisplay-BoldItalic.ttf");
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

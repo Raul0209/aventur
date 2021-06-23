@@ -1,0 +1,32 @@
+.banner-image {
+    background-image: url(../../../assets/landscape-784200.jpg);
+    background-size: cover;
+}
+
+.container-text-banner {
+    padding-right: 3%;
+}
+
+.text-jumbotron {
+    opacity: 0.95;
+    font-family: parfair-bold-italic;
+    color: white;
+}
+
+.jumbotron-calendar {
+    background-color: #FFFFFF;
+    max-width: 100%;
+}
+
+.img-carrousel {
+    width: 100%;
+    height: auto;
+}
+
+@supports(object-fit: cover) {
+    .img-carrousel {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
