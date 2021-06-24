@@ -30,3 +30,143 @@
         object-position: center center;
     }
 }
+
+
+.btn-whatsapp {
+    display: block;
+    width: 45px;
+    height: 45px;
+    color: green;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+    margin-right: 5%;
+    margin-bottom: 15px;
+}
+
+.btn-facebook {
+    display: block;
+    max-width: 10px !important; 
+    max-height: 10px !important;
+    color: blue;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+    margin-right: 25%;
+    margin-bottom: 50px;
+}
+
+.iconFooter {
+    width: 55px;
+    height: 55px;
+}
+
+.marginIcon {
+    margin-left: 10px;
+}
+
+
+.card-container {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 25px 140px 10px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.card-container:after {
+    position: absolute;
+    border-radius: 25px 140px 10px 25px;
+    content: '';
+    width: 100%;
+    height: 30%;
+    top: 70%;
+    -webkit-box-shadow: 0px 33px 65px 10px rgba(6, 40, 61, 0.34);
+    -moz-box-shadow: 0px 33px 65px 10px rgba(6, 40, 61, 0.34);
+    box-shadow: 0px 33px 65px 10px rgba(6, 40, 61, 0.34);
+    z-index: -1;
+}
+
+.container-text-card {
+    width: 490px;
+    margin: auto;
+}
+
+.textCard1 {
+    font: normal normal normal 18px/30px montserratRegular;
+    letter-spacing: 0.72px;
+}
+
+.titleMiniCards {
+    font: 45px montserratSemiBold;
+    text-align: center;
+    letter-spacing: 1.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    line-height: 60px;
+}
+
+.mini-card-container {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px 140px 25px 25px;
+    width: 350px;
+    height: 550px;
+    -webkit-box-shadow: 0px 33px 65px 10px rgba(6, 40, 61, 0.34);
+    -moz-box-shadow: 0px 33px 65px 10px rgba(6, 40, 61, 0.34);
+    box-shadow: 0px 33px 65px 10px rgba(6, 40, 61, 0.34);
+    background-color: white;
+    border: none;
+}
+
+
+
+.fontSvg {
+    background-color: #06283D;
+    border-radius: 10px 140px;
+}
+
+.imgMiniCard {
+     border-radius: 10px 140px;
+    width: 350px;
+    height: 263px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.container-mini-card-text {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-mini-card {
+    text-align: center;
+    font: normal normal 500 15px/21px montserratRegular;
+    letter-spacing: 0.6px;
+    color: #151515;
+    opacity: 1;
+}
+
+.text-mini-card1 {
+    text-align: justify;
+    font: normal normal 500 15px/21px montserratRegular;
+    letter-spacing: 0.6px;
+    color: #151515;
+    opacity: 1;
+}
